@@ -1,0 +1,140 @@
+
+.macro-calculator-container {
+  max-width: 400px; 
+  margin: 50px auto; 
+  padding: 30px;
+  background-color: #1e293b; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #f8f8f8; 
+  font-family: sans-serif;
+}
+
+.macro-calculator-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #334155; 
+  color: #f8f8f8;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+.goal-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.goal-button {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+  background-color: #334155; 
+  color: #f8f8f8;
+  text-align: center;
+}
+
+.goal-button.active {
+  background-color: #dc2626; 
+  color: #f8f8f8; 
+}
+
+.calculate-button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #dc2626; 
+  color: #f8f8f8;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.calculate-button:hover {
+  background-color: #b91c1c; 
+}
+
+.macros-result-container {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #334155; 
+  border-radius: 5px;
+}
+
+.macros-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.macro-item {
+  margin-bottom: 15px;
+}
+
+.macro-label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.progress-bar-container {
+  width: 100%;
+  background-color: #4a5568; 
+  border-radius: 5px;
+  height: 8px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background-color: #e53e3e; 
+  height: 8px;
+  border-radius: 5px;
+}
+
+.carbs-bar {
+  background-color: #4299e1; 
+}
+
+.fats-bar {
+  background-color: #f6ad55; 
+}
+
+.nutrient-info {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #cbd5e0; 
+}
+
+.nutrient-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}

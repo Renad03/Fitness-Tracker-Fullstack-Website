@@ -1,0 +1,38 @@
+.profile-about-container {
+  border: 1px solid var(--red-main-color);
+  padding: 20px 15px;
+  background-color: var(--main-background-color);
+  border-radius: 10px;
+  width: 300px;
+  height: 310px;
+}
+
+.about-title {
+  color: var(--red-main-color);
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  color: var(--red-main-color);
+  border-bottom: 1px solid rgba(217, 10, 20, 0.5);
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: var(--fontSize-2);
+}
+
+.info-text {
+  margin-top: 10px;
+  font-size: var(--fontSize-3);
+  color: var(--white-color);
+}
+@media (max-width: 600px) {
+  .profile-about-container {
+    width: 325px;
+  }
+}

@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Cinzel:wght@400..900&family=Lobster&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Vazirmatn:wght@100..900&family=Young+Serif&display=swap");
+
+:root {
+  --red-main-color: #d90a14;
+  --dark-red-main-color: #5B0408;
+
+  /* Red background button */
+  --orange-main-color: #cd4e17;
+  /* Orange background button */
+  --main-grey: #262626;
+  --main-light-grey: #888888;
+  --main-lighter-grey: #A9A9A9;
+
+  --white-color: #fff;
+  --main-background-color: #1d1d1d;
+
+  --hover-red-button-color: #c30912;
+  --Selected-red-button-color: #ae0810;
+
+  --hover-orange-button-color: #b94615;
+  --Selected-orange-button-color: #a43e12;
+
+  /* Font Size */
+  --MainTitle-fontSize: 40px;
+  --fontSize-1: 24px;
+  --fontSize-2: 20px;
+  --fontSize-3: 16px;
+
+  /* Font Weight */
+  --Weight-extraBold: 900;
+  --weight-bold: 700;
+  --weight-semiBold: 600;
+  --weight-medium: 500;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  /* background-color: var(--main-background-color); */
+}
+
+body {
+  font-family: "Vazirmatn", sans-serif;
+  background-color: var(--main-background-color);
+}
+
+.text-red {
+  color: var(--red-main-color) !important;
+}
+
+.text-orange {
+  color: var(--orange-main-color) !important;
+}
+
+.text-grey {
+  color: var(--main-light-grey) !important;
+}
+
+.text-light-grey {
+  color: var(--main-lighter-grey) !important;
+}
+
+.text-xs {
+  font-size: 12px !important;
+}
+
+.bg-red {
+  background-color: var(--red-main-color) !important;
+}
+
+.bg-dark-red {
+  background-color: var(--dark-red-main-color) !important;
+}
+
+.bg-orange {
+  background-color: var(--orange-main-color) !important;
+}
+
+.bg-grey {
+  background-color: var(--main-grey) !important;
+}
+
+.bg-main {
+  background-color: var(--main-background-color) !important;
+}
+
+.border-red {
+  border-color: var(--red-main-color) !important;
+}
+
+.border-orange {
+  border-color: var(--orange-main-color) !important;
+}
+
+.border-grey {
+  border-color: var(--main-grey) !important;
+}
+
+.p-2\.5 {
+  padding: 0.75rem;
+}
+
+.py-2\.5 {
+  padding: 0.75rem 0px;
+}
+
+.px-2\.5 {
+  padding: 0px 0.75rem;
+}
+
+.gap-2\.5 {
+  gap: 0.75rem;
+}
+
+.gap-4\.5 {
+  gap: 2.5rem;
+}
+
+.btn-danger {
+  --bs-btn-bg: var(--red-main-color);
+  --bs-btn-hover-bg: var(--hover-red-button-color);
+}

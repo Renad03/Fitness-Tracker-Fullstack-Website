@@ -1,0 +1,31 @@
+.plans-container {
+  background-color: var(--main-background-color);
+}
+.plan-card p.label {
+  color: var(--orange-main-color);
+  font-size: 12px;
+}
+.plan-container .plan-card {
+  border: 2px solid var(--orange-main-color);
+  border-radius: 16px;
+  overflow: hidden;
+  padding: 5px;
+}
+.plan-container:nth-child(2) {
+  .plan-card {
+    border: var(--red-main-color) 2px solid;
+  }
+  .plan-card p.label {
+    color: var(--red-main-color);
+  }
+}
+.plan-description {
+  font-size: smaller;
+}
+.plan-body ul li {
+  list-style: circle;
+}
+.price-section span {
+  font-size: var(--fontSize-1);
+  font-weight: var(--weight-bold);
+}

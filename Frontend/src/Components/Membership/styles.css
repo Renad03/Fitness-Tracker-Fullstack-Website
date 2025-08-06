@@ -1,0 +1,135 @@
+.membership-hero {
+    padding: 80px 0;
+    position: relative;
+  }
+  
+  .membership-card {
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    position: relative;
+  }
+  
+  .membership-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .price-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .currency {
+    position: relative;
+    top: -15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .price-value {
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1;
+  }
+  
+  .price-period {
+    font-size: 1rem;
+    display: block;
+    opacity: 0.8;
+  }
+  
+  .feature-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  
+  .feature-check {
+    color: #dc3545;
+    margin-right: 5px;
+  }
+  
+  .bg-black .feature-check {
+    color: #fff;
+  }
+  
+  .ribbon {
+    position: absolute;
+    top: 20px;
+    right: -30px;
+    transform: rotate(45deg);
+    width: 150px;
+    background-color: #000;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .ribbon-text {
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .benefit-card {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    height: 100%;
+  }
+  
+  .benefit-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .benefit-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .member-image {
+    width: 80px;
+    height: 80px;
+  }
+  
+  /* Customize accordion */
+  .accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #dc3545;
+  }
+  
+  .accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
+  }
+  
+  .accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23dc3545'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  }
+  
+  /* Overriding Bootstrap styles to match the color palette */
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .bg-danger {
+    background-color: #dc3545 !important;
+  }
+  
+  .text-danger {
+    color: #dc3545 !important;
+  }
+  
+  .cta-section {
+    background-color: #dc3545;
+  }

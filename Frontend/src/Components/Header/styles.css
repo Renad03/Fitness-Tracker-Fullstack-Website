@@ -1,0 +1,93 @@
+.dark-dropdown .dropdown-menu {
+  background-color: #212529 !important ;/* Bootstrap dark background */
+  border: none;
+}
+
+.dark-dropdown .dropdown-item {
+  color: #f8f9fa; /* Light text for contrast */
+}
+
+.dark-dropdown .dropdown-item:hover,
+.dark-dropdown .dropdown-item:focus {
+  background-color: #343a40; /* Slightly lighter dark for hover */
+  color: #fff;
+/* Default styles for large screens (already handled by Bootstrap classes) */
+}
+/* Media Query for tablets and below (e.g., max-width: 991px) */
+@media (max-width: 991px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav .nav-link,
+  .navbar-nav .dropdown {
+    margin: 0.5rem 0 !important;
+  }
+
+  .order-lg-last {
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 0.5rem;
+  }
+
+  .navbar-brand {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+
+  .navbar-brand div:last-child {
+    text-align: left;
+  }
+
+  .d-none.d-lg-flex {
+    display: none !important;
+  }
+
+  .order-lg-last .btn {
+    width: 100%;
+  }
+}
+
+/* Media Query for medium devices (between 992px and 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-nav .nav-link,
+  .navbar-nav .dropdown {
+    margin: 0 1rem !important;
+  }
+
+  .order-lg-last {
+    gap: 0.75rem;
+  }
+
+  .navbar-brand {
+    flex-direction: row;
+    align-items: center !important;
+  }
+
+  .navbar-brand div:last-child {
+    text-align: left;
+  }
+
+  .order-lg-last .btn {
+    min-width: 130px;
+  }
+}
+
+/* Media Query for small mobile screens (e.g., max-width: 575px) */
+@media (max-width: 575px) {
+  .navbar-brand {
+    font-size: 0.9rem;
+  }
+
+  .navbar-brand .fw-bold {
+    font-size: 1rem;
+  }
+
+  .navbar-brand .text-white-50 {
+    font-size: 0.6rem;
+  }
+
+  .order-lg-last {
+    padding: 0 1rem;
+  }
+}

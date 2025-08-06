@@ -1,0 +1,129 @@
+.heroSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.heroText {
+  max-width: 600px;
+  z-index: 2;
+}
+
+.heroText h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.heroText h1 p {
+  color: #ff3c00;
+  margin: 0;
+}
+
+.heroText p {
+  /* font-size: 16px; */
+  line-height: 1.7;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.heroButtons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btnPrimary {
+  background-color: #ff2222;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+  width: 100%;
+}
+
+.btnPrimary:hover {
+  background-color: #ff4444;
+}
+
+.btnOutline {
+  border: 2px solid #ff3c00;
+  background: transparent;
+  color: #ff3c00;
+  padding: 12px 24px;
+  border-radius: 10rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+  width: 100%;
+}
+
+.btnOutline:hover {
+  background: #ff3c00;
+  color: white;
+}
+
+.heroImageContainer {
+  position: relative;
+  z-index: 1;
+}
+
+.heroImageContainer img {
+  max-width: 450px;
+  height: auto;
+  border-radius: 12px;
+  /* box-shadow: 0 0 30px rgba(255, 60, 0, 0.4); */
+  z-index: 2;
+}
+
+.heroImageContainer::before {
+  content: "";
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, #ff3c00, #ff0000);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -3;
+  filter: blur(80px);
+  opacity: 0.9;
+}
+
+.statsBox {
+  position: absolute;
+  background: #111;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 0 0 10px rgba(255, 60, 0, 0.5);
+}
+
+.stat1 {
+  top: 15%;
+}
+.stat2 {
+  top: 15%;
+  right: 10%;
+}
+.stat3 {
+  bottom: 20%;
+}
+.stat4 {
+  bottom: 20%;
+  right: 10%;
+}

@@ -1,0 +1,36 @@
+.accordion {
+  --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none' stroke='%23CD4E17' stroke-width='2'%3e%3cpath d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+  --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none' stroke='%23D90A14' stroke-width='2'%3e%3cpath d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+  position: relative;
+}
+
+.accordion-button:focus,
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+
+.accordion>*:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.accordion-border {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  border: #CD4E17 2px solid;
+  border-radius: 0.5rem;
+}
+
+.progress {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#progress-select {
+  background-color: rgb(230, 230, 230);
+  color: grey;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}

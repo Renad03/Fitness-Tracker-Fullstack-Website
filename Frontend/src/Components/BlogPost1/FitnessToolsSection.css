@@ -1,0 +1,140 @@
+
+.fitness-tools-section {
+  margin-left: 0px;
+  margin-top: 80px;
+  color: #fff;
+  padding: 40px;
+  position: relative;
+}
+
+.header-container {
+  margin-bottom: 20px;
+  position: absolute;
+  top: -40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.main-heading {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 5px;
+  margin-left: 50px;
+  font-size: 1.8em;
+  font-weight: bold;
+  font-weight: 700;
+  
+}
+
+.main-heading .tools-red {
+  color: rgba(253, 20, 20, 0.804);
+  
+}
+
+.sub-heading {
+  color: #ccc;
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 330px;
+  font-size: 0.9em;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding-left: 20px;
+  padding-right: 40px;
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+
+
+
+.fitness-tool-card .title {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.fitness-tool-card .learn-more {
+  display: inline-block;
+  color: #f44336;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.fitness-tool-card .learn-more:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 1024px) {
+  .header-container {
+    left: 20px;
+  }
+
+  .main-heading {
+    margin-left: 30px;
+    font-size: 1.6em;
+  }
+
+  .sub-heading {
+    margin-left: 30px;
+    font-size: 0.85em;
+  }
+
+  .card-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .fitness-tools-section {
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  .header-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+  }
+
+  .main-heading {
+    text-align: center;
+    margin-left: 0;
+    font-size: 1.5em;
+  }
+
+  .sub-heading {
+    text-align: center;
+    margin-left: 0;
+    font-size: 0.9em;
+  }
+
+  .card-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-x: hidden;
+    gap: 15px;
+  }
+
+  .fitness-tool-card {
+    width: 90%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-heading {
+    font-size: 1.3em;
+  }
+
+  .sub-heading {
+    font-size: 0.8em;
+  }
+}

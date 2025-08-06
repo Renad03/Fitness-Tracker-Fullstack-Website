@@ -1,0 +1,35 @@
+.cards-container {
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.all-achievements {
+  display: flex;
+}
+
+.card-container {
+  margin-top: 20px;
+}
+.all-achievements {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.achievement-card {
+  width: 300px;
+  margin-bottom: 10px;
+}
+/* Card */
+.card {
+  background-color: var(--main-background-color);
+}
+@media (max-width: 768px) {
+  .all-achievements {
+    flex-direction: column;
+  }
+  .achievement-card {
+    width: 100%;
+  }
+}
