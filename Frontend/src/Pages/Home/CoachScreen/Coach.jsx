@@ -7,8 +7,8 @@ import ProfileAbout from "../../../Components/ProfileAbout/ProfileAbout";
 import CoachAchievements from "../../../Components/CoachAchievements/CoachAchievements";
 import Slider from "../../../Components/Slider/Slider";
 import axios from "axios";
-import femaleAvatar from 'E:/Renad/My-Projects/Fitness-Tracker/fitness-final-project/Frontend/src/Assets/images/female-avatar.png';
-import maleAvatar from 'E:/Renad/My-Projects/Fitness-Tracker/fitness-final-project/Frontend/src/Assets/images/male-avatar.png'
+import femaleAvatar from '../../../Assets/images/female-avatar.png';
+import maleAvatar from '../../../Assets/images/male-avatar.png';
 const Coach = ({ coachId }) => {
   const [coachData, setCoachData] = useState(null);
   const [error, setError] = useState(null);
