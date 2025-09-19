@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { Activity, Target, Flame, Heart, TrendingUp, Award, Calendar, Clock } from 'lucide-react';
-import femaleAvatar from 'E:/Renad/My-Projects/Fitness-Tracker/fitness-final-project/Frontend/src/Assets/images/female-avatar.png';
-import maleAvatar from 'E:/Renad/My-Projects/Fitness-Tracker/fitness-final-project/Frontend/src/Assets/images/male-avatar.png'
+import femaleAvatar from '../../Assets/images/female-avatar.png';
+import maleAvatar from '../../Assets/images/male-avatar.png'
 const UserProfile = () => {
   const userData = JSON.parse(localStorage.getItem("user"));
   const [activeTab, setActiveTab] = useState('overview');
