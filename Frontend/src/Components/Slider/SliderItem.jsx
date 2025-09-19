@@ -2,8 +2,8 @@ import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {React, useMemo} from "react";
 import { Link } from "react-router-dom";
-import femaleAvatar from 'E:/Renad/My-Projects/Fitness-Tracker/fitness-final-project/Frontend/src/Assets/images/female-avatar.png';
-import maleAvatar from 'E:/Renad/My-Projects/Fitness-Tracker/fitness-final-project/Frontend/src/Assets/images/male-avatar.png'
+import femaleAvatar from '../../Assets/images/female-avatar.png';
+import maleAvatar from '../../Assets/images/male-avatar.png'
 export default function SliderItem({ items, number }) {
   return (
     <div className="row">
